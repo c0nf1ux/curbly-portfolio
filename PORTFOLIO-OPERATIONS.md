@@ -13,7 +13,7 @@ MONGODB_URI=mongodb+srv://user:pass@cluster.mongodb.net/curbly
 JWT_SECRET=<32-char random key>
 STRIPE_SECRET_KEY=sk_test_xxx (test) / sk_live_xxx (prod)
 STRIPE_WEBHOOK_SECRET=whsec_xxx
-ADMIN_EMAIL=onepunchllc@outlook.com
+ADMIN_EMAIL=[your-email]
 NODE_ENV=production
 
 Frontend (Vercel):
@@ -123,7 +123,7 @@ LOW: Typo in error message, minor UI bug, analytics discrepancy
 
 Response Procedure (CRITICAL):
 
-0. STOP & NOTIFY: Email onepunchllc@outlook.com
+0. STOP & NOTIFY: Email [your-email]
 1. ASSESS: Check dashboard, recent commits, estimate impact
 2. CONTAIN: Switch to backup, revert commit, scale up instance
 3. FIX: Root cause analysis, fix, test locally, deploy

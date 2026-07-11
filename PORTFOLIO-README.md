@@ -1,1 +1,13 @@
-# Curbly — Accessibility-First Trash Removal Platform\n\nProduction-grade two-sided marketplace for elderly and disabled residents to age in place safely.\n\n**Status:** Production-ready | **Test Coverage:** 260/260 (100%) | **Accessibility:** 93/100 WCAG 2.1 AA\n\n## Core Features\n\nTwo-Sided Marketplace: Customers post jobs, haulers accept, platform validates and routes payments\nGPS-Validated Fraud Detection: Haversine distance + confidence scoring\nAccessibility-First: WCAG 2.1 AA compliant (93/100 Lighthouse)\nDynamic Pricing: $6-$25 based on distance, weight, building type, accessibility\n\n## Technology\n\nFrontend: React, Vercel | Backend: Node.js, Render | Database: MongoDB\nTests: 260/260 passing | Security: 40+ error codes, audit logging\n\n## Key Decisions\n\nAccessibility-First: WCAG 2.1 AA from day 1\nGPS Fraud Detection: Transparent pricing with validation\nError Codes: 40+ standardized codes for mobile UX\nAudit Logging: 90-day retention for GDPR compliance\nStrict State Machine: Prevent payment/proof bypass\n\n## Metrics\n\n| Metric | Status |\n|--------|--------|\n| Test Coverage | 260/260 (100%) |\n| Accessibility | 93/100 avg |\n| Security | 40+ error codes |\n| Uptime Target | 99.5%+ |\n\nSee PORTFOLIO-ARCHITECTURE.md, PORTFOLIO-DECISIONS.md, PORTFOLIO-OPERATIONS.md for full details.
+# Curbly — Accessibility-First Trash Removal Platform
+
+> A production-grade two-sided marketplace designed for elderly and disabled residents to age in place safely.
+
+**Status:** Production-ready | **Launch Year:** 2026 | **Test Coverage:** 260/260 (100%) | **Accessibility:** 93/100 WCAG 2.1 AA
+
+## The Problem & Solution
+
+**The Problem:** Seniors and disabled individuals struggle to manage trash removal independently. A single flight of stairs, a heavy bag, or lack of accessible services creates barriers to aging in place.
+
+**The Solution:** Curbly is a DoorDash-for-trash platform built specifically for accessibility. Customers post jobs with accessibility requirements. Haulers accept nearby jobs, provide GPS-geotagged proof, earn $40–$59/hr. The system validates distance, detects fraud, ensures transparency.
+
+**Why It Matters:** Creates both accessibility solutions AND competitive gig work (2–3x typical gig economy rates).
